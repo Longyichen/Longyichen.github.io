@@ -1,7 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F1LV92BWN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-3F1LV92BWN');
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,14 +27,6 @@
     <title>Yilong Chen</title>
   </head>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F1LV92BWN"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3F1LV92BWN');
-  </script>
   <body>
     <!-- <h1>Hello, world!</h1> -->
     <div class="container pt-5 allstuffp">
@@ -109,7 +108,8 @@
                      <span class="conf">Preprint</span><br>
                      <a class="tag" href="https://arxiv.org/abs/2406.06567.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
                      <a class="tag" href="https://arxiv.org/abs/2406.06567" target="_blank">abstract</a><span class="tagsep">|</span>
-                     <a class="tag" href="cites/DHA.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/DHA.bib" target="_blank">cite</a>
+                     <!-- <span class="tagsep">|</span> -->
                      <!-- <a class="tag" href="https://microsoft.github.io/linguisticdiversity/" target="_blank">website</a> -->
                  </p>
                  </div>
@@ -119,10 +119,10 @@
                      <span class="thisauthor">Yilong Chen</span>, Junyuan Shang, Zhenyu Zhang, Shiyao Cui, Tingwen Liu, Shuohuan Wang, Yu Sun, Hua Wu
                      <!-- <span class="noter"> (* = Equal Contribution)</span><br> -->
                      <span class="conf"><a class="confshort" href="https://2024.aclweb.org/">ACL'24 Oral</a> | Annual Meeting of the Association for Computational Linguistics</span><br>
-                     <a class="tag" href="assets/lemon.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
-                     <a class="tag" href="assets/lemon.pdf" target="_blank">abstract</a><span class="tagsep">|</span>
-                     <!-- <a class="tag" href="https://research.yichen.ink" target="_blank">video</a><span class="tagsep">|</span> -->
-                     <!-- <a class="tag" href="cites/lrec2020.bib" target="_blank">cite</a> -->
+                     <a class="tag" href="https://aclanthology.org/2024.acl-long.434.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://aclanthology.org/2024.acl-long.434/" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://underline.io/events/466/posters/18195/poster/103384-lemon-reviving-stronger-and-smaller-lms-from-larger-lms-with-linear-parameter-fusion?tab=Video" target="_blank">video</a><span class="tagsep">|</span>
+                     <a class="tag" href="cites/lemon.bib" target="_blank">cite</a>
                  </p>
                  </div>
                  <div class="py-2">
@@ -131,10 +131,10 @@
                         <span class="thisauthor">Yilong Chen∗</span>, Guoxia Wang∗, Junyuan Shang, Shiyao Cui, Zhenyu Zhang, Tingwen Liu, Shuohuan Wang, Yu Sun, Dianhai Yu, Hua Wu
                         <span class="noter"> (* = Equal Contribution)</span><br>
                         <span class="conf"><a class="confshort" href="https://2024.aclweb.org/">ACL'24</a> | Annual Meeting of the Association for Computational Linguistics</span><br>
-                        <a class="tag" href="assets/nacl.pdf" target="_blank" disabled>pdf</a><span class="tagsep">|</span>
-                        <a class="tag" href="assets/nacl.pdf" target="_blank" disabled>abstract</a><span class="tagsep">|</span>
-                        <!-- <a class="tag" href="https://research.yichen.ink" target="_blank" disabled>video</a><span class="tagsep">|</span>
-                        <a class="tag" href="cites/DHA.bib" target="_blank" disabled>cite</a> -->
+                        <a class="tag" href="https://aclanthology.org/2024.acl-long.428.pdf" target="_blank" disabled>pdf</a><span class="tagsep">|</span>
+                        <a class="tag" href="https://aclanthology.org/2024.acl-long.428/" target="_blank" disabled>abstract</a><span class="tagsep">|</span>
+                        <a class="tag" href="https://underline.io/events/466/posters/18195/poster/103317-nacl-a-general-and-effective-kv-cache-eviction-framework-for-llm-at-inference-time" target="_blank" disabled>video</a><span class="tagsep">|</span>
+                        <a class="tag" href="cites/nacl.bib" target="_blank" disabled>cite</a>
                     </p>
                 </div>
                 <div class="py-2">
@@ -165,6 +165,16 @@
 
 
                  <p class="header pt-5">Talks</p>
+                 <div class="py-2">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion</span><br>
+                        In the context of increasing attention on cost-effective and flexible deployment of smaller language models, LEMON enhances smaller models by fusing parameters from larger models, creating strong initial points for training. This approach uses layer and dimension operators along with controllable receptive fields, enabling transformation to smaller scales.<br>
+                        <span class="conf">CentralWorld ,Bangkok, Thailand</span><br>
+                        <a class="tag" href="https://underline.io/events/466/sessions/18166/lecture/101567-lemon-reviving-stronger-and-smaller-lms-from-larger-lms-with-linear-parameter-fusion" target="_blank">video</a><span class="tagsep">|</span>
+                        <!-- <a class="tag" href="https://pydata.org/nyc2018/schedule/presentation/14/" -->
+                            <!-- target="_blank">abstract</a> -->
+                    </p>
+                    </div>
                  <div class="py-2">
                  <p class="paper my-2 pl-2">
                      <span class="papertitle">General Information Extraction based on Instruction Fine-tuning LLMs (In Chinese)</span><br>
