@@ -694,13 +694,13 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .sidebar-column {
+    .fixed-posi {
         padding-right: 42px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .sidebar-column {
+    .fixed-posi {
         padding-right: 24px;
     }
 }
