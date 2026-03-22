@@ -148,10 +148,14 @@ body {
     padding: 0;
 }
 
-.fixed-posi {
+.sidebar-column {
     position: sticky;
     top: 92px;
     align-self: flex-start;
+}
+
+.fixed-posi {
+    position: static;
 }
 
 .about {
@@ -690,13 +694,13 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .fixed-posi {
+    .sidebar-column {
         padding-right: 42px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .fixed-posi {
+    .sidebar-column {
         padding-right: 24px;
     }
 }
@@ -775,6 +779,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
+    .sidebar-column,
     .fixed-posi {
         position: static;
         top: auto;
