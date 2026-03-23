@@ -148,10 +148,14 @@ body {
     padding: 0;
 }
 
-.fixed-posi {
+.sidebar-column {
     position: sticky;
     top: 92px;
     align-self: flex-start;
+}
+
+.fixed-posi {
+    position: static;
     width: 100%;
 }
 
@@ -779,6 +783,11 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     .fixed-posi {
+        position: static;
+        top: auto;
+    }
+
+    .sidebar-column {
         position: static;
         top: auto;
     }
