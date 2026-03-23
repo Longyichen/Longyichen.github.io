@@ -298,6 +298,8 @@ main,
     border: 0;
     background: transparent;
     color: var(--text);
+    font-size: 1rem;
+    line-height: 1.75;
 }
 
 .menulink:hover,
