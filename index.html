@@ -268,10 +268,10 @@
                   <article class="research-block">
                     <p class="research-label"><span data-lang="en">Computational Ceiling</span><span data-lang="zh" hidden>计算上限</span></p>
                     <p class="research-copy" data-lang="en">
-                      I study how to raise the <span class="research-em">computational ceiling</span> of model architectures by improving their expressive power, including <a class="in-text" href="#paper-moue">MoUE</a>, <a class="in-text" href="#paper-itt">ITT</a>, <a class="in-text" href="#work-put">PUT</a>, and <a class="in-text" href="#paper-tree">Tree Transformer</a>.
+                      I study how to raise the <span class="research-em">computational ceiling</span> of model architectures by improving their expressive power, including <a class="in-text" href="#paper-moue">MoUE</a>, <a class="in-text" href="#paper-itt">ITT</a>, <a class="in-text" href="#paper-put">PUT</a>, and <a class="in-text" href="#paper-tree">Sparse Growing Transformer</a>.
                     </p>
                     <p class="research-copy" data-lang="zh" hidden>
-                      我关注如何提升模型的<span class="research-em">计算表达能力上限</span>，从而打开架构的能力天花板，代表性工作包括 <a class="in-text" href="#paper-moue">MoUE</a>、<a class="in-text" href="#paper-itt">ITT</a>、<a class="in-text" href="#work-put">PUT</a> 和 <a class="in-text" href="#paper-tree">Tree Transformer</a>。
+                      我关注如何提升模型的<span class="research-em">计算表达能力上限</span>，从而打开架构的能力天花板，代表性工作包括 <a class="in-text" href="#paper-moue">MoUE</a>、<a class="in-text" href="#paper-itt">ITT</a>、<a class="in-text" href="#paper-put">PUT</a> 和 <a class="in-text" href="#paper-tree">Sparse Growing Transformer</a>。
                     </p>
                   </article>
 
@@ -318,18 +318,27 @@
                   <span class="papertitle"><span class="title-prefix">Multi-Dimensional Dynamic Architecture</span> - Mixture of Universal Experts: Scaling Virtual Width via Depth-Width Transformation</span><br>
                   <span class="author-list"><span class="thisauthor">Yilong Chen*</span>, Naibin Gu*, Junyuan Shang, Zhenyu Zhang, Yuchen Feng, Jiawei Sheng, Tingwen Liu, Shuohuan Wang, Yu Sun, Hua Wu, Haifeng Wang</span><br>
                   <span class="noter">* Equal contribution</span><br>
-                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2603.04971" target="_blank" rel="noopener">ICML 2026 Under Review</a> | Mixture of universal experts</span><br>
+                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2603.04971" target="_blank" rel="noopener">Underreview</a> | Mixture of universal experts</span><br>
                   <span class="paper-summary">TL;DR: Recasts traditional MoE as recursive computation over an approximately infinite-width MLP, delivers sustained scaling gains, improves performance by 1.4% at matched activated parameters without extra parameters or compute, and enables zero-cost hot-start conversion from MoE to MoUE with a further 4% gain.</span><br>
                   <a class="tag" href="https://arxiv.org/pdf/2603.04971" target="_blank" rel="noopener">pdf</a><span class="tagsep">|</span><a class="tag" href="https://arxiv.org/abs/2603.04971" target="_blank" rel="noopener">abstract</a><span class="tagsep">|</span><a class="tag" href="https://x.com/Yichen4NLP/status/2029864063162011689?s=20" target="_blank" rel="noopener">x</a>
                 </p>
               </div>
               <div class="py-2">
+                <p class="paper my-2" id="paper-put">
+                  <span class="papertitle"><span class="title-prefix">Polymorphic Universal Transformer</span> - Polymorphic Universal Transformer</span><br>
+                  <span class="author-list"><span class="thisauthor">Yilong Chen</span>, Zitian Gao, Yihao Xiao, Jason Klein Liu, Xinyu Yang, Yifan Luo, Tingwen Liu, Haoming Luo, Zhengmao Ye, Ran Tao, Bryan Dai</span><br>
+                  <span class="conf">ACL 2026 | Polymorphic universal architecture</span><br>
+                  <span class="paper-summary">TL;DR: Studies a polymorphic universal Transformer architecture for flexible computation across model configurations and inference regimes.</span>
+                </p>
+              </div>
+              <div class="py-2">
                 <p class="paper my-2" id="paper-tree">
-                  <span class="papertitle"><span class="title-prefix">Self-Growing Depth Architecture</span> - Tree Transformer: A Self-Growing Depth Architecture</span><br>
-                  <span class="author-list">Yao Chen*, <span class="thisauthor">Yilong Chen*</span>, et al.</span><br>
+                  <span class="papertitle"><span class="title-prefix">Sparse Growing Transformer</span> - Sparse Growing Transformer: Training-Time Sparse Depth Allocation via Progressive Attention Looping</span><br>
+                  <span class="author-list">Yao Chen*, <span class="thisauthor">Yilong Chen*</span>, Yinqi Yang, Junyuan Shang, Zhenyu Zhang, Zefeng Zhang, Shuaiyi Nie, Shuohuan Wang, Yu Sun, Hua Wu, HaiFeng Wang, Tingwen Liu</span><br>
                   <span class="noter">* Equal contribution</span><br>
-                  <span class="conf">ACL 2026 Under Review | Self-growing depth architecture</span><br>
-                  <span class="paper-summary">TL;DR: Uses attention-entropy signals to let model depth grow during training, outperforming static block-level baselines with less compute via progressive attention cycles on high-entropy heads.</span>
+                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2603.23998" target="_blank" rel="noopener">Underreview</a> | Sparse depth allocation</span><br>
+                  <span class="paper-summary">TL;DR: Uses attention-entropy signals to progressively extend recurrence from deeper to shallower layers, outperforming static block-level baselines with much lower training FLOPs overhead.</span><br>
+                  <a class="tag" href="https://arxiv.org/pdf/2603.23998" target="_blank" rel="noopener">pdf</a><span class="tagsep">|</span><a class="tag" href="https://arxiv.org/abs/2603.23998" target="_blank" rel="noopener">abstract</a>
                 </p>
               </div>
 
@@ -344,11 +353,20 @@
                 </p>
               </div>
               <div class="py-2">
+                <p class="paper my-2" id="paper-uar">
+                  <span class="papertitle"><span class="title-prefix">Uncertainty-Aware Routing</span> - Uncertainty-Aware Routing for Principled Alignment with MoE Dynamics</span><br>
+                  <span class="author-list"><span class="thisauthor">Yilong Chen</span>, Junyuan Shang, Zhenyu Zhang, Yuchen Feng, Naibin Gu, Ziqi Wang, Tingwen Liu, Shuohuan Wang, Yu Sun, Hua Wu, Haifeng Wang</span><br>
+                  <span class="conf">ACL 2026 | Uncertainty-aware MoE routing</span><br>
+                  <span class="paper-summary">TL;DR: Aligns routing behavior with MoE dynamics through uncertainty-aware signals, improving principled expert allocation and specialization.</span>
+                </p>
+              </div>
+              <div class="py-2">
                 <p class="paper my-2" id="paper-plce">
-                  <span class="papertitle"><span class="title-prefix">Hierarchical Semantic Enhancement</span> - X-gram Extraction for Efficient Embedding Parameter Scaling</span><br>
-                  <span class="author-list"><span class="thisauthor">Yilong Chen</span></span><br>
-                  <span class="conf">ICML 2026 In Preparation | Efficient embedding parameter scaling</span><br>
-                  <span class="paper-summary">TL;DR: Adds probability-balanced hashed parameter banks and a ShortConv N-gram extractor to provide static semantic anchors, improving rare-token learning and hierarchical semantics at O(1) retrieval cost.</span>
+                  <span class="papertitle"><span class="title-prefix">Data-Aware X-GRAM</span> - Beyond N-gram: Data-Aware X-GRAM Extraction for Efficient Embedding Parameter Scaling</span><br>
+                  <span class="author-list"><span class="thisauthor">Yilong Chen</span>, Yanxi Xie, Zitian Gao, He Xin, Yihao Xiao, Jason Klein Liu, Haoming Luo, Yifan Luo, Zhengmao Ye, Tingwen Liu, Xin Zhao, Ran Tao, Bryan Dai</span><br>
+                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2604.21724" target="_blank" rel="noopener">Underreview</a> | Efficient embedding parameter scaling</span><br>
+                  <span class="paper-summary">TL;DR: Uses hybrid hashing, alias mixing, ShortConv extraction, and depth-aware gating to align static memory with dynamic context while scaling embedding capacity efficiently.</span><br>
+                  <a class="tag" href="https://arxiv.org/pdf/2604.21724" target="_blank" rel="noopener">pdf</a><span class="tagsep">|</span><a class="tag" href="https://arxiv.org/abs/2604.21724" target="_blank" rel="noopener">abstract</a>
                 </p>
               </div>
 
@@ -387,7 +405,7 @@
                   <span class="papertitle"><span class="title-prefix">Advantageous Parameter Expansion</span> - Advantageous Parameter Expansion Training Makes Better Large Language Models</span><br>
                   <span class="author-list">Naibin Gu*, <span class="thisauthor">Yilong Chen*</span>, Zhenyu Zhang, Peng Fu, Zheng Lin, Shuohuan Wang, Yu Sun, Hua Wu, Weiping Wang, Haifeng Wang</span><br>
                   <span class="noter">* Equal contribution</span><br>
-                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2505.24241" target="_blank" rel="noopener">ACL 2026 Under Review</a> | Advantageous parameter expansion training</span><br>
+                  <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2505.24241" target="_blank" rel="noopener">Underreview</a> | Advantageous parameter expansion training</span><br>
                   <span class="paper-summary">TL;DR: Introduces a plug-and-play parameter expansion strategy that preserves high-gain directions during expansion, improving training efficiency and downstream reasoning performance at lower cost.</span><br>
                   <a class="tag" href="https://arxiv.org/pdf/2505.24241" target="_blank" rel="noopener">pdf</a><span class="tagsep">|</span><a class="tag" href="https://arxiv.org/abs/2505.24241" target="_blank" rel="noopener">abstract</a>
                 </p>
@@ -464,36 +482,38 @@
                 <li class="collab-item" id="work-oem" data-open="false">
                   <button class="collab-trigger" type="button" aria-haspopup="true">
                     <span class="collab-main"><span class="title-prefix">One-Step Entropy Minimization</span> - One-shot Entropy Minimization</span>
-                    <span class="collab-meta">Current Project</span>
+                    <span class="collab-meta">Underreview</span>
                   </button>
                   <div class="collab-popup">
                     <span class="papertitle"><span class="title-prefix">One-Step Entropy Minimization</span> - One-shot Entropy Minimization</span>
-                    <span class="author-list"><span class="thisauthor">Yilong Chen</span></span>
-                    <span class="conf">Current Project | Test-time entropy reduction</span>
-                    <span class="paper-summary">TL;DR: Studies whether a single entropy-minimization step can provide strong adaptation and reasoning gains with minimal runtime overhead.</span>
+                    <span class="author-list">Zitian Gao, <span class="thisauthor">Lynx Chen</span>, Haoming Luo, Joey Zhou, Bryan Dai</span>
+                    <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2505.20282" target="_blank" rel="noopener">Underreview</a> | Test-time entropy reduction</span>
+                    <span class="paper-summary">TL;DR: Shows that one unlabeled datum and a few entropy-minimization optimization steps can deliver post-training gains comparable to much larger rule-based reinforcement learning setups.</span>
+                    <div class="collab-links"><a class="tag" href="https://arxiv.org/pdf/2505.20282" target="_blank" rel="noopener">pdf</a><a class="tag" href="https://arxiv.org/abs/2505.20282" target="_blank" rel="noopener">abstract</a></div>
                   </div>
                 </li>
                 <li class="collab-item" id="work-diffusion" data-open="false">
                   <button class="collab-trigger" type="button" aria-haspopup="true">
                     <span class="collab-main"><span class="title-prefix">Diffusion Model Analysis</span> - What Makes Diffusion Language Models Super Data Learners?</span>
-                    <span class="collab-meta">Current Project</span>
+                    <span class="collab-meta">Underreview</span>
                   </button>
                   <div class="collab-popup">
                     <span class="papertitle"><span class="title-prefix">Diffusion Model Analysis</span> - What Makes Diffusion Language Models Super Data Learners?</span>
-                    <span class="author-list"><span class="thisauthor">Yilong Chen</span></span>
-                    <span class="conf">Current Project | Data efficiency in diffusion language models</span>
-                    <span class="paper-summary">TL;DR: Analyzes why diffusion language models can be unusually data-efficient and which learning dynamics drive that advantage.</span>
+                    <span class="author-list">Zitian Gao, Haoming Luo, <span class="thisauthor">Lynx Chen</span>, Jason Klein Liu, Ran Tao, Joey Zhou, Bryan Dai</span>
+                    <span class="conf"><a class="confshort" href="https://arxiv.org/abs/2510.04071" target="_blank" rel="noopener">Underreview</a> | Data efficiency in diffusion language models</span>
+                    <span class="paper-summary">TL;DR: Finds that random masking is a dominant driver of diffusion language model data efficiency, with related gains from stochastic regularization such as MLP dropout and weight decay.</span>
+                    <div class="collab-links"><a class="tag" href="https://arxiv.org/pdf/2510.04071" target="_blank" rel="noopener">pdf</a><a class="tag" href="https://arxiv.org/abs/2510.04071" target="_blank" rel="noopener">abstract</a></div>
                   </div>
                 </li>
                 <li class="collab-item" id="work-urm" data-open="false">
                   <button class="collab-trigger" type="button" aria-haspopup="true">
                     <span class="collab-main"><span class="title-prefix">Universal Reasoning Model</span> - Universal Reasoning Model</span>
-                    <span class="collab-meta">Current Project</span>
+                    <span class="collab-meta">Underreview</span>
                   </button>
                   <div class="collab-popup">
                     <span class="papertitle"><span class="title-prefix">Universal Reasoning Model</span> - Universal Reasoning Model</span>
                     <span class="author-list"><span class="thisauthor">Yilong Chen</span></span>
-                    <span class="conf">Current Project | Unified reasoning architecture</span>
+                    <span class="conf">Underreview | Unified reasoning architecture</span>
                     <span class="paper-summary">TL;DR: Explores a unified reasoning model that generalizes across tasks, inference regimes, and forms of deliberate computation.</span>
                   </div>
                 </li>
@@ -550,10 +570,10 @@
               <h2 class="header"><span data-lang="en">Current Projects</span><span data-lang="zh" hidden>当前项目</span></h2>
               <p class="sectionnote"><span data-lang="en">Selected ongoing directions and papers in progress.</span><span data-lang="zh" hidden>当前持续推进的研究方向与在研工作。</span></p>
               <ul class="project-list">
-                <li id="work-put"><span class="topic-title">Polymorphic Universal Transformer</span> <span class="itemmeta"><span data-lang="en">ACL 2026 under review</span><span data-lang="zh" hidden>ACL 2026 在审</span></span></li>
-                <li><span class="topic-title">Tree Transformer: A Self-Growing Depth Architecture</span> <span class="itemmeta"><span data-lang="en">ACL 2026 under review</span><span data-lang="zh" hidden>ACL 2026 在审</span></span></li>
-                <li id="work-uar"><span class="topic-title">Uncertainty-Aware Routing</span> <span class="itemmeta"><span data-lang="en">ACL 2026 under review</span><span data-lang="zh" hidden>ACL 2026 在审</span></span></li>
-                <li id="work-mac"><span class="topic-title">Memory Augmentation Unlocks Efficient Reasoning</span> <span class="itemmeta"><span data-lang="en">ACL 2026 under review</span><span data-lang="zh" hidden>ACL 2026 在审</span></span></li>
+                <li id="work-put"><span class="topic-title">Polymorphic Universal Transformer</span> <span class="itemmeta"><span data-lang="en">ACL 2026 accepted</span><span data-lang="zh" hidden>ACL 2026 已接收</span></span></li>
+                <li><span class="topic-title">Sparse Growing Transformer: Training-Time Sparse Depth Allocation via Progressive Attention Looping</span> <span class="itemmeta"><span data-lang="en">Underreview</span><span data-lang="zh" hidden>在审</span></span></li>
+                <li id="work-uar"><span class="topic-title">Uncertainty-Aware Routing for Principled Alignment with MoE Dynamics</span> <span class="itemmeta"><span data-lang="en">ACL 2026 accepted</span><span data-lang="zh" hidden>ACL 2026 已接收</span></span></li>
+                <li id="work-mac"><span class="topic-title">Memory Augmentation Unlocks Efficient Reasoning</span> <span class="itemmeta"><span data-lang="en">Underreview</span><span data-lang="zh" hidden>在审</span></span></li>
               </ul>
             </section>
 
@@ -565,7 +585,7 @@
                   <div class="cvitem">
                     <span class="papertitle">University of Chinese Academy of Sciences</span><br>
                     <span class="itemmeta"><span data-lang="en">PhD in Computer Science, Sep 2024 - Present</span><span data-lang="zh" hidden>计算机科学博士，2024 年 9 月至今</span></span><br>
-                    <span data-lang="en">Research focus: model architecture and LLM efficiency. Advisor: Tingwen Liu.</span><span data-lang="zh" hidden>研究方向为模型架构与大语言模型效率。导师：刘挺文。</span>
+                    <span data-lang="en">Research focus: model architecture and LLM efficiency. Advisor: Tingwen Liu.</span><span data-lang="zh" hidden>研究方向为模型架构与大语言模型效率。导师：柳厅文。</span>
                   </div>
                   <div class="cvitem pt-4">
                     <span class="papertitle">University of Chinese Academy of Sciences</span><br>
