@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Yilong Chen">
-  <rect width="64" height="64" rx="16" fill="#f7f1e7"/>
-  <path d="M18 18h10l9 14 9-14h10L37 44v10h-9V44L18 18z" fill="#211d18"/>
-  <path d="M32 10c12.15 0 22 9.85 22 22S44.15 54 32 54" fill="none" stroke="#b6492d" stroke-width="3.5" stroke-linecap="round"/>
+  <rect width="64" height="64" rx="14" fill="#111817"/>
+  <path d="M13 47.5h38" fill="none" stroke="#9bb7a5" stroke-width="3" stroke-linecap="round"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" letter-spacing="-1.5" fill="#f7f1e7">YC</text>
 </svg>
